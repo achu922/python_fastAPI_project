@@ -1,8 +1,8 @@
-from tkinter import TRUE
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
-from sqlalchemy.sql.expression import null, text
 from sqlalchemy.orm import relationship
+from sqlalchemy.sql.expression import text
 from sqlalchemy.sql.sqltypes import TIMESTAMP
+
 from .database import Base
 
 #This file creates our tables for the database.
